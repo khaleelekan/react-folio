@@ -1,8 +1,8 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
+import metube from "../img/metube.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
+import pizza from "../img/pizza.png"
 import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -34,14 +34,10 @@ export const info = {
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
-        {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
+    miniBio: [
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in Nigeria'
         },
         {
             emoji: "💼",
@@ -111,34 +107,34 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "React pizza",
+            live: "https://react-pitsa.netlify.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/khaleelekan/react-pizza-store", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: pizza
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Real chat",
+            live: "https://forrealchats.netlify.app/",
+            source: "https://github.com/khaleelekan/Realchat",
+            image: pizza
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
+            title: "first portfolio",
+            live: "https://khalilulekan.netlify.app",
+            source: "https://github.com/khaleelekan/my-portfolio",
+            image: metube
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
+            title: "meTube",
+            live: "https://meeflask.netlify.app/",
+            source: "https://github.com/khaleelekan/metube",
+            image: metube
         },
         {
             title: "Project 5",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock5
+            image: pizza
         }
     ]
 }
