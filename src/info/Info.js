@@ -53,28 +53,28 @@ export const info = {
         }
     ],
     socials: [
-        {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
+        // {
+        //     link: "https://facebook.com",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
+        // {
+        //     link: "https://instagram.com",
+        //     icon: 'fa fa-instagram',
+        //     label: 'instagram'
+        // },
         {
             link: "https://github.com/khaleelekan",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://linkedin.com/in/khalilullahi-abdulraheem-943a43239",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://twitter.com/khaleellekan23",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
